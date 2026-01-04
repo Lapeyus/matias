@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprende a Dibujar con Matías</title>
-    <meta name="description" content="Domina el arte del dibujo. Aprende estilos desde realismo hasta Kawaii con lecciones paso a paso.">
+    <meta name="description"
+        content="Domina el arte del dibujo. Aprende estilos desde realismo hasta Kawaii con lecciones paso a paso.">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
+
 <body>
     <nav class="navbar">
-        <div class="logo">Matías<span class="highlight">Art</span></div>
+        <div class="logo">Matías<span class="highlight">Villarreal</span></div>
         <ul class="nav-links">
             <li><a href="#hero">Inicio</a></li>
-            <li><a href="#estilos">Estilos</a></li>
-            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#sobre-mi">Sobre Mí</a></li>
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
             <li><a href="#contacto" class="btn-primary">Empezar</a></li>
         </ul>
     </nav>
@@ -25,23 +29,24 @@
     <header id="hero" class="hero-section">
         <div class="hero-content">
             <h1>Desata tu <span class="gradient-text">Creatividad</span></h1>
-            <p>Aprende a dibujar desde cero. Domina el realismo, diviértete con el estilo Kawaii y encuentra tu propia voz artística con Matías.</p>
+            <p>Aprende a dibujar desde cero con Matías Villarreal. Domina el realismo, diviértete con el estilo Kawaii y
+                explora el mundo del manga y la acuarela.</p>
             <div class="cta-group">
-                <a href="#estilos" class="btn-primary">Ver Cursos</a>
-                <a href="#demo" class="btn-secondary">Ver Demo <i class="fas fa-play-circle"></i></a>
+                <a href="#cursos" class="btn-primary">Ver Cursos</a>
+                <a href="#sobre-mi" class="btn-secondary">Conoce al Instructor</a>
             </div>
             <div class="stats">
                 <div class="stat-item">
-                    <span class="number">1k+</span>
-                    <span class="label">Estudiantes</span>
+                    <span class="number">2.5k+</span>
+                    <span class="label">Estudiantes Activos</span>
                 </div>
                 <div class="stat-item">
-                    <span class="number">50+</span>
-                    <span class="label">Lecciones</span>
+                    <span class="number">12</span>
+                    <span class="label">Cursos Completos</span>
                 </div>
                 <div class="stat-item">
                     <span class="number">4.9</span>
-                    <span class="label">Calificación</span>
+                    <span class="label">Valoración</span>
                 </div>
             </div>
         </div>
@@ -49,51 +54,188 @@
             <img src="images/hero.png" alt="Espacio de arte creativo" class="hero-image">
             <div class="floating-card card-1">
                 <i class="fas fa-pencil-alt"></i>
-                <span>Técnica</span>
+                <span>Técnica Profesional</span>
             </div>
             <div class="floating-card card-2">
                 <i class="fas fa-palette"></i>
-                <span>Color</span>
+                <span>Teoría del Color</span>
             </div>
         </div>
     </header>
 
-    <section id="estilos" class="styles-section">
-        <div class="section-header">
-            <h2>Explora los <span class="gradient-text">Estilos</span></h2>
-            <p>Elige tu camino artístico. Desde la precisión del realismo hasta la ternura del Kawaii.</p>
+    <section id="sobre-mi" class="about-section">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="images/matias-avatar.png" alt="Matías Villarreal">
+            </div>
+            <div class="about-content">
+                <h2>Hola, soy <span class="gradient-text">Matías Villarreal</span></h2>
+                <p class="lead">Tu guía en este viaje artístico.</p>
+                <p>Soy un apasionado artista visual e instructor con más de 10 años de experiencia enseñando a
+                    estudiantes de todas las edades a descubrir su potencial artístico. Mi filosofía es simple:
+                    <strong>todos pueden aprender a dibujar</strong>.</p>
+                <p>He dedicado mi carrera a desglosar técnicas complejas en pasos sencillos y manejables. Ya sea que
+                    quieras dibujar un retrato realista o crear tu propio cómic manga, estoy aquí para guiarte en cada
+                    trazo.</p>
+                <div class="achievements">
+                    <div class="achievement">
+                        <i class="fas fa-award"></i>
+                        <span>Premio Nacional de Arte 2023</span>
+                    </div>
+                    <div class="achievement">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Lic. en Bellas Artes</span>
+                    </div>
+                </div>
+            </div>
         </div>
-        
+    </section>
+
+    <section id="cursos" class="styles-section">
+        <div class="section-header">
+            <h2>Nuestros <span class="gradient-text">Cursos Destacados</span></h2>
+            <p>Desde fundamentos básicos hasta técnicas avanzadas. Encuentra el curso perfecto para ti.</p>
+        </div>
+
         <div class="styles-grid">
+            <!-- Curso Realismo -->
             <div class="style-card glass-card">
                 <div class="card-image">
                     <img src="images/realism.png" alt="Dibujo realista de un ojo">
+                    <div class="badge">Más Popular</div>
                 </div>
                 <div class="card-content">
-                    <h3>Realismo</h3>
-                    <p>Aprende a capturar la esencia de la realidad. Domina las luces, sombras, texturas y proporciones para crear obras que cobran vida.</p>
+                    <div class="course-meta">
+                        <span><i class="far fa-clock"></i> 12 Horas</span>
+                        <span><i class="fas fa-signal"></i> Intermedio</span>
+                    </div>
+                    <h3>Maestría en Realismo</h3>
+                    <p>Aprende a capturar la esencia de la realidad. Domina luces, sombras y texturas para crear obras
+                        vivas.</p>
                     <ul class="feature-list">
-                        <li><i class="fas fa-check"></i> Anatomía y Proporción</li>
-                        <li><i class="fas fa-check"></i> Sombreado Avanzado</li>
-                        <li><i class="fas fa-check"></i> Texturas Hiperrealistas</li>
+                        <li><i class="fas fa-check"></i> Anatomía Facial y Corporal</li>
+                        <li><i class="fas fa-check"></i> Texturas de Piel y Cabello</li>
+                        <li><i class="fas fa-check"></i> Iluminación Dramática</li>
                     </ul>
-                    <a href="#" class="btn-text">Aprender Realismo <i class="fas fa-arrow-right"></i></a>
+                    <a href="#" class="btn-text">Ver Detalles <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
 
+            <!-- Curso Kawaii -->
             <div class="style-card glass-card">
                 <div class="card-image">
                     <img src="images/kawaii.png" alt="Gato estilo Kawaii">
+                    <div class="badge new">Nuevo</div>
                 </div>
                 <div class="card-content">
-                    <h3>Estilo Kawaii</h3>
-                    <p>El arte de lo adorable. Crea personajes tiernos y coloridos con formas simples y expresiones encantadoras. ¡Perfecto para principiantes!</p>
+                    <div class="course-meta">
+                        <span><i class="far fa-clock"></i> 5 Horas</span>
+                        <span><i class="fas fa-signal"></i> Principiante</span>
+                    </div>
+                    <h3>Mundo Kawaii y Chibi</h3>
+                    <p>Crea personajes adorables. Un curso divertido enfocado en la simplificación y la expresión.</p>
                     <ul class="feature-list">
-                        <li><i class="fas fa-check"></i> Diseño de Personajes</li>
-                        <li><i class="fas fa-check"></i> Teoría del Color Pastel</li>
+                        <li><i class="fas fa-check"></i> Diseño de Mascotas</li>
                         <li><i class="fas fa-check"></i> Expresiones Tiernas</li>
+                        <li><i class="fas fa-check"></i> Paletas de Color Pastel</li>
                     </ul>
-                    <a href="#" class="btn-text">Aprender Kawaii <i class="fas fa-arrow-right"></i></a>
+                    <a href="#" class="btn-text">Ver Detalles <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Curso Manga -->
+            <div class="style-card glass-card">
+                <div class="card-image">
+                    <img src="images/manga-course.png" alt="Personaje Manga Acción">
+                </div>
+                <div class="card-content">
+                    <div class="course-meta">
+                        <span><i class="far fa-clock"></i> 15 Horas</span>
+                        <span><i class="fas fa-signal"></i> Intermedio</span>
+                    </div>
+                    <h3>Fundamentos de Manga</h3>
+                    <p>Crea tus propias historias. Aprende narrativa visual, diseño de personajes y escenas de acción.
+                    </p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Proporciones Manga</li>
+                        <li><i class="fas fa-check"></i> Entintado y Tramas</li>
+                        <li><i class="fas fa-check"></i> Perspectiva Dinámica</li>
+                    </ul>
+                    <a href="#" class="btn-text">Ver Detalles <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Curso Paisajes -->
+            <div class="style-card glass-card">
+                <div class="card-image">
+                    <img src="images/landscape-course.png" alt="Paisaje Acuarela">
+                </div>
+                <div class="card-content">
+                    <div class="course-meta">
+                        <span><i class="far fa-clock"></i> 8 Horas</span>
+                        <span><i class="fas fa-signal"></i> Todos los Niveles</span>
+                    </div>
+                    <h3>Acuarela y Paisajes</h3>
+                    <p>Conéctate con la naturaleza. Aprende a controlar el agua y el color para pintar atmósferas
+                        mágicas.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Teoría del Color</li>
+                        <li><i class="fas fa-check"></i> Técnicas de Lavado</li>
+                        <li><i class="fas fa-check"></i> Composición Natural</li>
+                    </ul>
+                    <a href="#" class="btn-text">Ver Detalles <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Curso Carbonas -->
+            <div class="style-card glass-card">
+                <div class="card-image">
+                    <img src="images/charcoal-portrait.png" alt="Retrato al Carboncillo">
+                </div>
+                <div class="card-content">
+                    <div class="course-meta">
+                        <span><i class="far fa-clock"></i> 6 Horas</span>
+                        <span><i class="fas fa-signal"></i> Avanzado</span>
+                    </div>
+                    <h3>Técnicas al Carboncillo</h3>
+                    <p>El poder del contraste. Domina esta técnica clásica para retratos expresivos y profundos.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Valor y Contraste</li>
+                        <li><i class="fas fa-check"></i> Retrato Expresivo</li>
+                        <li><i class="fas fa-check"></i> Materiales y Herramientas</li>
+                    </ul>
+                    <a href="#" class="btn-text">Ver Detalles <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Sección de Testimonios -->
+    <section id="testimonios" class="testimonials-section">
+        <div class="section-header">
+            <h2>Lo que dicen <span class="gradient-text">Mis Estudiantes</span></h2>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <p>"¡Increíble! Nunca pensé que podría dibujar así. Matías explica todo con mucha paciencia."</p>
+                <div class="student-info">
+                    <h4>Sofía Ramírez</h4>
+                    <span>Estudiante de Realismo</span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p>"El curso de Manga me ayudó a lanzar mi primer webcomic. ¡Gracias Matías!"</p>
+                <div class="student-info">
+                    <h4>Alejandro Torres</h4>
+                    <span>Estudiante de Manga</span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p>"Me encanta el enfoque relajado del curso de acuarelas. Es mi terapia semanal."</p>
+                <div class="student-info">
+                    <h4>Elena Gómez</h4>
+                    <span>Estudiante de Acuarela</span>
                 </div>
             </div>
         </div>
@@ -116,4 +258,5 @@
         </div>
     </footer>
 </body>
+
 </html>
